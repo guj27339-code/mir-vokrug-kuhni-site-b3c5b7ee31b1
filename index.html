@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Мир вокруг кухни — кухни и мебель на заказ в Москве. Оплата в день доставки</title>
+<meta name="description" content="Кухни и корпусная мебель по индивидуальным размерам в Москве. Собственное производство, оплата по факту доставки без предоплаты, гарантия 5 лет. Бесплатный замер. Варшавское ш., 141к7.">
+<link rel="canonical" href="https://vkkuhni.ru/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Мир вокруг кухни — сначала кухня, потом деньги">
+<meta property="og:description" content="Кухни на заказ в Москве. Собственное производство, оплата в день доставки, гарантия 5 лет. Бесплатный замер.">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="https://vkkuhni.ru/">
+<meta property="og:site_name" content="Мир вокруг кухни">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="theme-color" content="#1f3a2e">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FurnitureStore",
+  "name": "Мир вокруг кухни",
+  "description": "Кухни и корпусная мебель по индивидуальным размерам. Собственное производство, оплата по факту доставки, гарантия 5 лет.",
+  "url": "https://vkkuhni.ru/",
+  "telephone": "+7 910 473-00-88",
+  "image": "https://vkkuhni.ru/og.jpg",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Варшавское шоссе, 141к7, помещение 5, 1 этаж",
+    "addressLocality": "Москва",
+    "postalCode": "117405",
+    "addressCountry": "RU"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 55.5783, "longitude": 37.6065 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "10:00", "closes": "19:00" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "140" },
+  "sameAs": ["https://t.me/MVK_Kuhni", "https://vk.com/club94514618"]
+}
+</script>
+
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --paper:#faf8f3;
+  --paper-2:#f2eee4;
+  --ink:#191c19;
+  --ink-soft:#4a514a;
+  --forest:#1f3a2e;
+  --forest-2:#2c5240;
+  --forest-3:#3a6b52;
+  --brass:#a8762f;
+  --brass-soft:#c79a54;
+  --line:rgba(25,28,25,.12);
+  --line-strong:rgba(25,28,25,.22);
+  --on-forest:#eef3ea;
+  --on-forest-dim:#b9c9bd;
+  --radius:14px;
+  --radius-lg:22px;
+  --wrap:1180px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  box-sizing:border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;font-family:var(--font);background:var(--paper);color:var(--ink);
+  font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+h1,h2,h3,h4{line-height:1.1;margin:0;font-weight:700;letter-spacing:-.015em}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+img,svg{max-width:100%;display:block}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 22px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.82rem;color:var(--brass);
+  font-weight:600;letter-spacing:.02em;margin-bottom:18px}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--brass);border-radius:2px}
+.eyebrow.on-dark{color:var(--brass-soft)}
+.eyebrow.on-dark::before{background:var(--brass-soft)}
+.section{padding:88px 0}
+.section h2{font-size:clamp(1.7rem,3.7vw,2.5rem);max-width:19ch}
+.lead{color:var(--ink-soft);font-size:1.12rem;max-width:60ch;margin-top:16px}
+
+/* ============ BUTTONS ============ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-family:inherit;font-size:1rem;font-weight:600;cursor:pointer;
+  padding:15px 26px;border-radius:999px;border:1.5px solid transparent;
+  transition:transform .18s ease, background .2s ease, box-shadow .2s ease, color .2s ease;
+  text-align:center;line-height:1.1}
+.btn:active{transform:translateY(1px) scale(.99)}
+.btn-primary{background:var(--forest);color:var(--on-forest)}
+.btn-primary:hover{background:var(--forest-2);box-shadow:0 10px 26px -12px rgba(31,58,46,.7)}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line-strong)}
+.btn-ghost:hover{border-color:var(--forest);background:#fff}
+.btn-brass{background:var(--brass);color:#fff}
+.btn-brass:hover{background:#956526}
+.btn-on-forest{background:var(--on-forest);color:var(--forest)}
+.btn-on-forest:hover{background:#fff}
+.btn-line-forest{background:transparent;color:var(--on-forest);border-color:rgba(238,243,234,.4)}
+.btn-line-forest:hover{border-color:var(--on-forest);background:rgba(255,255,255,.06)}
+.icon{width:19px;height:19px;flex:0 0 auto}
+
+/* ============ HEADER ============ */
+.site-head{position:sticky;top:0;z-index:60;
+  padding-top:env(safe-area-inset-top,0px);
+  transition:background .3s ease, box-shadow .3s ease, backdrop-filter .3s ease}
+.site-head.solid{background:rgba(250,248,243,.92);backdrop-filter:saturate(1.4) blur(10px);
+  box-shadow:0 1px 0 var(--line)}
+/* light content while transparent over the hero */
+.site-head:not(.solid) .brand{color:var(--on-forest)}
+.site-head:not(.solid) .brand small{color:var(--on-forest-dim)}
+.site-head:not(.solid) .brand .mark rect{fill:#eef3ea}
+.site-head:not(.solid) .nav a{color:var(--on-forest-dim)}
+.site-head:not(.solid) .nav a:hover{color:#fff}
+.site-head:not(.solid) .head-phone{color:var(--on-forest)}
+.site-head:not(.solid) .head-cta .btn-primary{background:var(--on-forest);color:var(--forest)}
+.site-head:not(.solid) .head-cta .btn-primary:hover{background:#fff}
+.site-head:not(.solid) .burger{border-color:rgba(238,243,234,.45)}
+.site-head:not(.solid) .burger span,
+.site-head:not(.solid) .burger span::before,
+.site-head:not(.solid) .burger span::after{background:var(--on-forest)}
+.head-row{display:flex;align-items:center;gap:24px;height:72px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:700;letter-spacing:-.02em;font-size:1.12rem}
+.brand .mark{width:34px;height:34px;flex:0 0 auto}
+.brand small{display:block;font-size:.62rem;font-weight:500;color:var(--ink-soft);letter-spacing:.04em}
+.nav{display:flex;gap:26px;margin-left:auto;align-items:center}
+.nav a{font-size:.96rem;color:var(--ink-soft);font-weight:500;transition:color .2s}
+.nav a:hover{color:var(--ink)}
+.head-cta{display:flex;align-items:center;gap:14px}
+.head-phone{font-weight:700;font-size:1rem;white-space:nowrap}
+.burger{display:none;width:44px;height:44px;border:1.5px solid var(--line-strong);background:transparent;
+  border-radius:12px;cursor:pointer;align-items:center;justify-content:center;flex:0 0 auto}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--ink)}
+.burger span::before{top:-6px}.burger span::after{top:6px}
+
+/* mobile menu */
+.mmenu{position:fixed;inset:0;z-index:70;background:var(--forest);color:var(--on-forest);
+  display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 20px) 24px 24px;
+  transform:translateY(-100%);transition:transform .38s cubic-bezier(.6,.05,.2,1);visibility:hidden}
+.mmenu.open{transform:translateY(0);visibility:visible}
+.mmenu-top{display:flex;justify-content:space-between;align-items:center}
+.mmenu-close{width:44px;height:44px;border:1px solid rgba(238,243,234,.3);background:transparent;color:var(--on-forest);
+  border-radius:12px;font-size:1.4rem;cursor:pointer}
+.mmenu nav{display:flex;flex-direction:column;gap:6px;margin-top:34px}
+.mmenu nav a{font-size:1.5rem;font-weight:600;padding:12px 0;border-bottom:1px solid rgba(238,243,234,.14)}
+.mmenu .mmenu-foot{margin-top:auto;display:grid;gap:12px}
+
+/* ============ HERO ============ */
+.hero{position:relative;background:var(--forest);color:var(--on-forest);overflow:hidden;
+  margin-top:-72px;padding-top:72px}
+.hero-inner{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;
+  padding:74px 0 84px;position:relative;z-index:2}
+.hero h1{font-size:clamp(2.5rem,6.2vw,4.5rem);letter-spacing:-.03em;font-weight:800}
+.hero h1 .accent{position:relative;white-space:nowrap;color:#fff}
+.hero h1 .accent::after{content:"";position:absolute;left:0;right:0;bottom:.07em;height:.14em;
+  background:var(--brass-soft);border-radius:3px;transform:scaleX(0);transform-origin:left;
+  animation:wipe .7s .95s cubic-bezier(.6,.05,.2,1) forwards}
+.hero-sub{color:var(--on-forest-dim);font-size:1.18rem;max-width:46ch;margin-top:22px;line-height:1.55}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.hero-chips{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;padding-top:26px;
+  border-top:1px solid rgba(238,243,234,.16)}
+.chip{display:flex;align-items:center;gap:8px;font-size:.94rem;color:var(--on-forest)}
+.chip b{color:#fff}
+.chip .star{color:var(--brass-soft)}
+.hero-art{position:relative;aspect-ratio:1/1;width:100%}
+.hero-art svg{width:100%;height:100%;overflow:visible}
+.hero-glow{position:absolute;inset:-20% -10% auto auto;width:70%;height:70%;
+  background:radial-gradient(circle,rgba(58,107,82,.55),transparent 62%);filter:blur(10px);z-index:0}
+/* hero load reveal */
+.reveal-up{opacity:0;transform:translateY(18px);animation:up .7s cubic-bezier(.2,.7,.2,1) forwards}
+.hero .d1{animation-delay:.06s}.hero .d2{animation-delay:.18s}.hero .d3{animation-delay:.3s}
+.hero .d4{animation-delay:.42s}.hero .d5{animation-delay:.54s}
+@keyframes up{to{opacity:1;transform:translateY(0)}}
+@keyframes wipe{to{transform:scaleX(1)}}
+.draw path,.draw line,.draw rect,.draw circle{
+  stroke-dasharray:var(--len,1400);stroke-dashoffset:var(--len,1400);
+  animation:draw 1.7s .5s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+/* ============ TRUST / WHY ============ */
+.why{background:var(--paper)}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:52px;
+  border-top:1px solid var(--line)}
+.why-item{padding:34px 26px 34px 0;border-right:1px solid var(--line)}
+.why-item:last-child{border-right:none;padding-right:0}
+.why-item .n{width:44px;height:44px;color:var(--brass);margin-bottom:20px}
+.why-item h3{font-size:1.16rem;margin-bottom:9px}
+.why-item p{color:var(--ink-soft);font-size:.98rem}
+
+/* ============ SERVICES ============ */
+.services{background:var(--paper-2)}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:52px}
+.svc{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;
+  transition:transform .25s ease, box-shadow .25s ease}
+.svc:hover{transform:translateY(-4px);box-shadow:0 22px 40px -28px rgba(25,28,25,.4)}
+.svc .ph{aspect-ratio:4/3}
+.svc-body{padding:24px 24px 28px}
+.svc-body h3{font-size:1.25rem;margin-bottom:8px}
+.svc-body p{color:var(--ink-soft);font-size:.98rem;margin-bottom:16px}
+.svc-body a{color:var(--forest);font-weight:600;font-size:.96rem;display:inline-flex;gap:7px;align-items:center}
+.svc-body a .icon{width:16px;height:16px;transition:transform .2s}
+.svc-body a:hover .icon{transform:translateX(4px)}
+
+/* photo placeholder (honest, not stock) */
+.ph{position:relative;background:linear-gradient(155deg,#28483a,#1f3a2e 60%);overflow:hidden}
+.ph svg{position:absolute;inset:0;width:100%;height:100%;opacity:.5}
+.ph .tag{position:absolute;left:14px;bottom:12px;font-size:.72rem;color:rgba(238,243,234,.72);
+  background:rgba(0,0,0,.28);padding:5px 10px;border-radius:20px;font-weight:500;letter-spacing:.02em}
+
+/* ============ WORKS ============ */
+.works{background:var(--paper)}
+.works-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.works-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:44px}
+.work{aspect-ratio:1/1;border-radius:var(--radius);overflow:hidden;position:relative}
+.work.tall{grid-row:span 2;aspect-ratio:auto}
+.work:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}
+
+/* ============ PROCESS (timeline) ============ */
+.process{background:var(--forest);color:var(--on-forest)}
+.process .lead{color:var(--on-forest-dim)}
+.timeline{position:relative;margin-top:58px;display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.tl-line{position:absolute;left:0;right:0;top:22px;height:2px;background:rgba(238,243,234,.18)}
+.tl-line i{position:absolute;left:0;top:0;height:100%;width:0;background:var(--brass-soft);transition:width 1.3s ease}
+.process.in .tl-line i{width:100%}
+.step{position:relative;padding-right:10px}
+.step .dot{width:46px;height:46px;border-radius:50%;background:var(--forest);border:2px solid var(--brass-soft);
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1.1rem;color:var(--brass-soft);
+  position:relative;z-index:2;transform:scale(0);transition:transform .4s cubic-bezier(.3,1.4,.5,1)}
+.process.in .step .dot{transform:scale(1)}
+.process.in .step:nth-child(2) .dot{transition-delay:.15s}
+.process.in .step:nth-child(3) .dot{transition-delay:.35s}
+.process.in .step:nth-child(4) .dot{transition-delay:.55s}
+.process.in .step:nth-child(5) .dot{transition-delay:.75s}
+.process.in .step:nth-child(6) .dot{transition-delay:.95s}
+.step h3{font-size:1.1rem;margin:20px 0 7px}
+.step p{color:var(--on-forest-dim);font-size:.93rem}
+
+/* ============ TRUST BLOCK ============ */
+.trust{background:var(--paper-2)}
+.trust-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:center}
+.rating-card{background:var(--forest);color:var(--on-forest);border-radius:var(--radius-lg);padding:40px 36px;text-align:center}
+.rating-num{font-size:4.4rem;font-weight:800;line-height:1;letter-spacing:-.03em}
+.rating-stars{color:var(--brass-soft);font-size:1.5rem;letter-spacing:4px;margin:10px 0 6px}
+.rating-card p{color:var(--on-forest-dim);font-size:.98rem}
+.rating-card a{display:inline-flex;gap:8px;align-items:center;margin-top:20px;color:var(--brass-soft);font-weight:600;font-size:.95rem}
+.quote{border-left:3px solid var(--brass);padding:6px 0 6px 28px}
+.quote p{font-family:var(--serif);font-size:1.5rem;line-height:1.4;font-style:italic}
+.quote .who{margin-top:18px;font-family:var(--font);font-style:normal;font-size:.95rem;color:var(--ink-soft)}
+.quote .who b{color:var(--ink);font-style:normal}
+
+/* ============ CALCULATOR ============ */
+.calc{background:var(--paper)}
+.calc-shell{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;border:1px solid var(--line);
+  border-radius:var(--radius-lg);overflow:hidden;margin-top:44px}
+.calc-aside{background:var(--forest);color:var(--on-forest);padding:44px 38px}
+.calc-aside h2{color:var(--on-forest);font-size:1.9rem;max-width:14ch}
+.calc-aside p{color:var(--on-forest-dim);margin-top:16px;font-size:1rem}
+.calc-aside ul{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:12px}
+.calc-aside li{display:flex;gap:11px;align-items:flex-start;font-size:.96rem;color:var(--on-forest)}
+.calc-aside li .icon{color:var(--brass-soft);margin-top:2px}
+.calc-form{padding:40px 38px;background:var(--paper)}
+.field{margin-bottom:22px}
+.field label{display:block;font-weight:600;font-size:.95rem;margin-bottom:11px}
+.opts{display:flex;flex-wrap:wrap;gap:9px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt span{display:inline-flex;padding:11px 17px;border:1.5px solid var(--line-strong);border-radius:999px;
+  font-size:.94rem;cursor:pointer;transition:.18s;user-select:none}
+.opt input:checked+span{background:var(--forest);color:var(--on-forest);border-color:var(--forest)}
+.opt span:hover{border-color:var(--forest)}
+.range-row{display:flex;align-items:center;gap:16px}
+.range-row input[type=range]{flex:1;accent-color:var(--forest);height:6px}
+.range-val{font-weight:700;font-size:1.15rem;min-width:92px;text-align:right}
+.field input[type=text]{width:100%;padding:13px 16px;border:1.5px solid var(--line-strong);border-radius:12px;
+  font-family:inherit;font-size:1rem;background:#fff}
+.field input[type=text]:focus{outline:none;border-color:var(--forest)}
+.calc-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.calc-note{font-size:.86rem;color:var(--ink-soft);margin-top:16px}
+.calc-msg{background:var(--paper-2);border:1px dashed var(--line-strong);border-radius:12px;padding:14px 16px;
+  font-size:.9rem;color:var(--ink-soft);margin-top:18px;white-space:pre-line;display:none}
+.calc-msg.show{display:block}
+
+/* ============ FAQ ============ */
+.faq{background:var(--paper-2)}
+.faq-list{margin-top:44px;border-top:1px solid var(--line)}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-q{width:100%;text-align:left;background:none;border:none;cursor:pointer;font-family:inherit;
+  font-size:1.14rem;font-weight:600;color:var(--ink);padding:24px 44px 24px 0;position:relative;display:block}
+.faq-q::after{content:"";position:absolute;right:6px;top:50%;width:14px;height:14px;
+  border-right:2px solid var(--brass);border-bottom:2px solid var(--brass);
+  transform:translateY(-70%) rotate(45deg);transition:transform .25s}
+.faq-item.open .faq-q::after{transform:translateY(-30%) rotate(-135deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-a p{color:var(--ink-soft);padding:0 40px 24px 0;font-size:1rem}
+
+/* ============ CONTACT ============ */
+.contact{background:var(--forest);color:var(--on-forest)}
+.contact .eyebrow{color:var(--brass-soft)}
+.contact .eyebrow::before{background:var(--brass-soft)}
+.contact h2{color:var(--on-forest)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:48px;align-items:start}
+.info-row{display:flex;gap:16px;padding:20px 0;border-bottom:1px solid rgba(238,243,234,.15)}
+.info-row:first-child{padding-top:0}
+.info-row .icon{width:22px;height:22px;color:var(--brass-soft);flex:0 0 auto;margin-top:3px}
+.info-row .lbl{font-size:.82rem;color:var(--on-forest-dim);margin-bottom:4px}
+.info-row .val{font-size:1.08rem;font-weight:600;color:#fff}
+.info-row a.val:hover{color:var(--brass-soft)}
+.map-card{border-radius:var(--radius-lg);overflow:hidden;background:#16281f;position:relative;min-height:360px;
+  border:1px solid rgba(238,243,234,.14);display:flex;flex-direction:column;justify-content:flex-end}
+.map-card .mapbg{position:absolute;inset:0;opacity:.7}
+.map-card .mapfoot{position:relative;z-index:2;padding:22px;background:linear-gradient(transparent,rgba(15,26,20,.92))}
+.map-card .mapfoot .val{font-weight:600;margin-bottom:14px}
+
+/* ============ FOOTER ============ */
+.foot{background:#152219;color:var(--on-forest-dim);padding:54px 0 120px}
+.foot-top{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;
+  padding-bottom:30px;border-bottom:1px solid rgba(238,243,234,.12)}
+.foot .brand{color:#fff}
+.foot-links{display:flex;gap:40px;flex-wrap:wrap}
+.foot-links .col a{display:block;color:var(--on-forest-dim);font-size:.94rem;padding:5px 0}
+.foot-links .col a:hover{color:#fff}
+.foot-links .col .h{color:#fff;font-weight:600;margin-bottom:8px;font-size:.9rem}
+.foot-legal{margin-top:26px;font-size:.82rem;line-height:1.7;color:rgba(185,201,189,.7)}
+
+/* ============ MOBILE BOTTOM BAR ============ */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:65;display:none;
+  background:var(--paper);border-top:1px solid var(--line);
+  padding:8px 8px calc(8px + env(safe-area-inset-bottom,0px));
+  grid-template-columns:repeat(3,1fr);gap:6px;box-shadow:0 -6px 20px -12px rgba(0,0,0,.3)}
+.mbar a{display:flex;flex-direction:column;align-items:center;gap:3px;padding:8px 4px;
+  font-size:.74rem;font-weight:600;color:var(--ink);border-radius:12px}
+.mbar a .icon{width:22px;height:22px;color:var(--forest)}
+.mbar a.accent{background:var(--forest);color:#fff}
+.mbar a.accent .icon{color:#fff}
+
+/* ============ SCROLL REVEAL ============ */
+.sr{opacity:0;transform:translateY(24px);transition:opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1)}
+.sr.in{opacity:1;transform:none}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width:1000px){
+  .hero-inner{grid-template-columns:1fr;gap:10px}
+  .hero-art{max-width:420px;margin:6px auto 0;order:-1}
+  .why-grid{grid-template-columns:1fr 1fr}
+  .why-item{padding:28px 22px 28px 0}
+  .why-item:nth-child(2){border-right:none;padding-right:0}
+  .svc-grid{grid-template-columns:1fr}
+  .works-grid{grid-template-columns:1fr 1fr}
+  .work:first-child{grid-column:span 2}
+  .timeline{grid-template-columns:1fr 1fr 1fr;gap:26px 14px}
+  .tl-line{display:none}
+  .trust-grid{grid-template-columns:1fr;gap:30px}
+  .calc-shell{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr;gap:30px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .section{padding:60px 0}
+  .nav,.head-phone{display:none}
+  .head-cta .btn{display:none}
+  .burger{display:flex}
+  .mbar{display:grid}
+  .foot{padding-bottom:100px}
+  .why-grid{grid-template-columns:1fr}
+  .why-item{border-right:none;padding:24px 0;border-bottom:1px solid var(--line)}
+  .why-item:last-child{border-bottom:none}
+  .works-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .timeline{grid-template-columns:1fr;gap:0}
+  .step{display:flex;gap:18px;padding:0 0 26px}
+  .step .dot{flex:0 0 auto}
+  .step .body{padding-top:6px}
+  .step h3{margin-top:8px}
+  .calc-aside,.calc-form{padding:30px 24px}
+  .hero-cta .btn{flex:1 1 100%}
+  .rating-num{font-size:3.6rem}
+  .quote p{font-size:1.25rem}
+}
+@media (max-width:380px){
+  .wrap{padding:0 16px}
+  .hero h1{font-size:2.25rem}
+  .btn{padding:14px 18px;font-size:.95rem}
+}
+@media (prefers-reduced-motion:reduce){
+  .reveal-up,.sr,.hero h1 .accent::after,.draw path,.draw line,.draw rect,.draw circle{
+    animation:none!important;transition:none!important;opacity:1!important;transform:none!important}
+  .hero h1 .accent::after{transform:scaleX(1)!important}
+  .step .dot{transform:scale(1)!important}
+  .tl-line i{width:100%!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-head" id="head">
+  <div class="wrap head-row">
+    <a href="#top" class="brand" aria-label="Мир вокруг кухни — на главную">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="36" height="36" rx="9" fill="#1f3a2e"/>
+        <path d="M11 27V15h18v12" stroke="#c79a54" stroke-width="2"/>
+        <path d="M11 21h18M20 15v12" stroke="#c79a54" stroke-width="2"/>
+        <circle cx="15.5" cy="18" r="1.3" fill="#eef3ea"/><circle cx="24.5" cy="24" r="1.3" fill="#eef3ea"/>
+      </svg>
+      <span>Мир вокруг кухни<small>кухни и мебель на заказ · Москва</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#why">Почему мы</a>
+      <a href="#works">Работы</a>
+      <a href="#process">Как заказываем</a>
+      <a href="#calc">Расчёт</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <div class="head-cta">
+      <a class="head-phone" href="tel:+79104730088">+7 910 473-00-88</a>
+      <a class="btn btn-primary" href="#calc">Записаться на замер</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<div class="mmenu" id="mmenu" aria-hidden="true">
+  <div class="mmenu-top">
+    <span class="brand" style="color:#eef3ea">Мир вокруг кухни</span>
+    <button class="mmenu-close" id="mclose" aria-label="Закрыть меню">×</button>
+  </div>
+  <nav>
+    <a href="#why" data-close>Почему мы</a>
+    <a href="#services" data-close>Что делаем</a>
+    <a href="#works" data-close>Работы</a>
+    <a href="#process" data-close>Как заказываем</a>
+    <a href="#calc" data-close>Быстрый расчёт</a>
+    <a href="#contact" data-close>Контакты</a>
+  </nav>
+  <div class="mmenu-foot">
+    <a class="btn btn-on-forest" href="tel:+79104730088">Позвонить +7 910 473-00-88</a>
+    <a class="btn btn-line-forest" href="https://t.me/MVK_Kuhni" target="_blank" rel="noopener">Написать в Telegram</a>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <span class="hero-glow" aria-hidden="true"></span>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow on-dark reveal-up d1">Собственное производство в Москве</span>
+      <h1 class="reveal-up d2">Сначала кухня — <span class="accent">потом&nbsp;деньги</span></h1>
+      <p class="hero-sub reveal-up d3">Кухни и корпусная мебель по вашим размерам. Изготавливаем на своём производстве и привозим готовую — оплата в день доставки, без предоплаты. Гарантия 5 лет.</p>
+      <div class="hero-cta reveal-up d4">
+        <a class="btn btn-on-forest" href="#calc">Записаться на бесплатный замер</a>
+        <a class="btn btn-line-forest" href="tel:+79104730088">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 11.5a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></svg>
+          Позвонить
+        </a>
+        <a class="btn btn-line-forest" href="https://t.me/MVK_Kuhni" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.7 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-4.9 9-8.1c.4-.3-.1-.5-.6-.2L4.9 13 .2 11.5c-1-.3-1-1 .2-1.5L20.6 2.4c.9-.3 1.6.2 1.3 1.9z"/></svg>
+          Telegram
+        </a>
+      </div>
+      <div class="hero-chips reveal-up d5">
+        <span class="chip"><span class="star">★</span> <b>4.9</b> на Яндекс.Картах</span>
+        <span class="chip"><b>140</b> оценок клиентов</span>
+        <span class="chip"><b>0 ₽</b> предоплата</span>
+      </div>
+    </div>
+    <div class="hero-art reveal-up d3" aria-hidden="true">
+      <svg viewBox="0 0 400 400" class="draw" fill="none" stroke="#c79a54" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- wall / floor -->
+        <line x1="30" y1="300" x2="370" y2="300" style="--len:340"/>
+        <!-- upper cabinets -->
+        <rect x="60" y="70" width="90" height="70" rx="4" style="--len:340"/>
+        <rect x="160" y="70" width="90" height="70" rx="4" style="--len:340"/>
+        <rect x="260" y="70" width="80" height="70" rx="4" style="--len:320"/>
+        <line x1="105" y1="70" x2="105" y2="140" style="--len:70"/>
+        <line x1="205" y1="70" x2="205" y2="140" style="--len:70"/>
+        <!-- countertop -->
+        <line x1="50" y1="200" x2="350" y2="200" style="--len:300"/>
+        <!-- lower cabinets -->
+        <rect x="60" y="205" width="80" height="95" rx="4" style="--len:350"/>
+        <rect x="150" y="205" width="60" height="95" rx="4" style="--len:310"/>
+        <!-- sink -->
+        <rect x="222" y="212" width="55" height="30" rx="4" style="--len:170"/>
+        <circle cx="250" cy="227" r="6" style="--len:40"/>
+        <line x1="250" y1="205" x2="250" y2="200" style="--len:10"/>
+        <!-- tall cabinet -->
+        <rect x="288" y="130" width="52" height="170" rx="4" style="--len:440"/>
+        <line x1="288" y1="215" x2="340" y2="215" style="--len:52"/>
+        <!-- handles -->
+        <line x1="128" y1="245" x2="128" y2="260" style="--len:16"/>
+        <line x1="195" y1="245" x2="195" y2="260" style="--len:16"/>
+        <line x1="330" y1="165" x2="330" y2="185" style="--len:20"/>
+        <!-- pendant lamp -->
+        <line x1="180" y1="40" x2="180" y2="60" style="--len:20"/>
+        <path d="M168 60h24l-6 14h-12z" style="--len:60"/>
+        <!-- plant -->
+        <path d="M310 200c-4-14-14-18-14-18M310 200c4-12 12-15 12-15M310 200v-16" style="--len:60" stroke="#eef3ea"/>
+        <rect x="303" y="200" width="14" height="10" rx="2" style="--len:48" stroke="#eef3ea"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="section why" id="why">
+  <div class="wrap">
+    <span class="eyebrow sr">Почему платить вперёд не нужно</span>
+    <h2 class="sr">Заказ мебели без риска для вашего кошелька</h2>
+    <p class="lead sr">Главный страх при заказе кухни — отдать деньги и остаться без результата. У нас этого страха нет по устройству работы.</p>
+    <div class="why-grid">
+      <div class="why-item sr">
+        <svg class="n" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M8 40V20l16-12 16 12v20"/><path d="M18 40V28h12v12"/></svg>
+        <h3>Своё производство</h3>
+        <p>Не перекупщики. Кухни делаем на собственном цехе — отвечаем за материалы, сроки и качество сами.</p>
+      </div>
+      <div class="why-item sr">
+        <svg class="n" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 14h30v20H6z"/><path d="M36 20h6l4 6v8h-10"/><circle cx="15" cy="38" r="4"/><circle cx="38" cy="38" r="4"/></svg>
+        <h3>Оплата в день доставки</h3>
+        <p>Сначала изготавливаем и привозим готовую кухню — платите по факту, когда всё уже у вас дома.</p>
+      </div>
+      <div class="why-item sr">
+        <svg class="n" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 6h20l8 8v28H12z"/><path d="M18 22h16M18 30h16M18 14h8"/></svg>
+        <h3>Договор с фиксированной ценой</h3>
+        <p>Стоимость закрепляем в договоре до старта работ. Никаких доплат «по ходу дела».</p>
+      </div>
+      <div class="why-item sr">
+        <svg class="n" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M24 4l16 6v12c0 11-7 18-16 22C15 40 8 33 8 22V10z"/><path d="M17 24l5 5 10-11"/></svg>
+        <h3>Гарантия 5 лет</h3>
+        <p>На мебель действует гарантия 5 лет. Сервис и поддержку получаете и после сборки.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section services" id="services">
+  <div class="wrap">
+    <span class="eyebrow sr">Что делаем</span>
+    <h2 class="sr">Мебель по вашим размерам под любой интерьер</h2>
+    <div class="svc-grid">
+      <article class="svc sr">
+        <div class="ph"><svg viewBox="0 0 200 150" preserveAspectRatio="none" fill="none" stroke="#c79a54" stroke-width="1.5"><rect x="18" y="30" width="50" height="34" rx="2"/><rect x="76" y="30" width="50" height="34" rx="2"/><line x1="18" y1="82" x2="182" y2="82"/><rect x="18" y="86" width="46" height="46" rx="2"/><rect x="72" y="86" width="40" height="46" rx="2"/><rect x="120" y="40" width="40" height="92" rx="2"/></svg><span class="tag">Фото работы · заменить</span></div>
+        <div class="svc-body">
+          <h3>Кухни на заказ</h3>
+          <p>Прямые, угловые, П-образные и с островом. Пластик, эмаль, шпон, ЛДСП — под ваш бюджет и стиль.</p>
+          <a href="#calc">Рассчитать кухню <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="svc sr">
+        <div class="ph"><svg viewBox="0 0 200 150" preserveAspectRatio="none" fill="none" stroke="#c79a54" stroke-width="1.5"><rect x="40" y="20" width="120" height="112" rx="2"/><line x1="100" y1="20" x2="100" y2="132"/><line x1="70" y1="20" x2="70" y2="132"/><line x1="130" y1="20" x2="130" y2="132"/><line x1="40" y1="76" x2="70" y2="76"/><line x1="130" y1="76" x2="160" y2="76"/></svg><span class="tag">Фото работы · заменить</span></div>
+        <div class="svc-body">
+          <h3>Шкафы и гардеробные</h3>
+          <p>Встроенные и корпусные шкафы-купе, гардеробные системы под нишу и площадь любой формы.</p>
+          <a href="#calc">Рассчитать шкаф <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="svc sr">
+        <div class="ph"><svg viewBox="0 0 200 150" preserveAspectRatio="none" fill="none" stroke="#c79a54" stroke-width="1.5"><rect x="24" y="46" width="70" height="86" rx="2"/><rect x="106" y="30" width="70" height="50" rx="2"/><line x1="24" y1="88" x2="94" y2="88"/><rect x="106" y="92" width="70" height="40" rx="2"/></svg><span class="tag">Фото работы · заменить</span></div>
+        <div class="svc-body">
+          <h3>Корпусная мебель</h3>
+          <p>Тумбы, стеллажи, комоды, ТВ-зоны, прихожие и мебель для ванной — единым проектом с кухней.</p>
+          <a href="#calc">Обсудить проект <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORKS ============ -->
+<section class="section works" id="works">
+  <div class="wrap">
+    <div class="works-head">
+      <div>
+        <span class="eyebrow sr">Наши работы</span>
+        <h2 class="sr">Проекты, собранные на своём производстве</h2>
+      </div>
+      <a class="btn btn-ghost sr" href="portfolio.html">Вся галерея работ</a>
+    </div>
+    <div class="works-grid" id="worksGrid">
+      <!-- placeholders — swap for real project photos -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section process" id="process">
+  <div class="wrap">
+    <span class="eyebrow on-dark sr">Как проходит заказ</span>
+    <h2 class="sr">Пять шагов от замера до готовой кухни</h2>
+    <p class="lead sr">Каждый этап понятен заранее, а деньги вы отдаёте только на последнем.</p>
+    <div class="timeline">
+      <div class="tl-line" aria-hidden="true"><i></i></div>
+      <div class="step"><div class="dot">1</div><div class="body"><h3>Бесплатный замер</h3><p>Дизайнер приезжает, снимает точные размеры и обсуждает пожелания.</p></div></div>
+      <div class="step"><div class="dot">2</div><div class="body"><h3>Дизайн-проект</h3><p>Готовим проект и смету, подбираем материалы и фурнитуру, фиксируем цену.</p></div></div>
+      <div class="step"><div class="dot">3</div><div class="body"><h3>Производство</h3><p>Изготавливаем мебель на собственном цехе по утверждённому проекту.</p></div></div>
+      <div class="step"><div class="dot">4</div><div class="body"><h3>Доставка и сборка</h3><p>Привозим готовую кухню и собираем её у вас дома.</p></div></div>
+      <div class="step"><div class="dot">5</div><div class="body"><h3>Оплата</h3><p>Платите в день доставки — когда кухня уже стоит на месте.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section class="section trust" id="reviews">
+  <div class="wrap">
+    <span class="eyebrow sr">Нам доверяют</span>
+    <h2 class="sr">Оценки клиентов, а не обещания</h2>
+    <div class="trust-grid" style="margin-top:44px">
+      <div class="rating-card sr">
+        <div class="rating-num" id="ratingNum" data-to="4.9">4.9</div>
+        <div class="rating-stars">★★★★★</div>
+        <p>Средняя оценка на Яндекс.Картах<br><span id="reviewCount" data-to="140">140</span> отзывов клиентов</p>
+        <a href="https://yandex.ru/maps/?text=Мир%20Вокруг%20Кухни%20Варшавское%20шоссе%20141" target="_blank" rel="noopener">
+          Смотреть отзывы на Картах
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+      </div>
+      <blockquote class="quote sr">
+        <p>«Очень хорошая компания. Предоплата — 0 ₽, оплата за кухню в день доставки. Через полгода заказала у них ещё и всю корпусную мебель в квартиру — качеством довольна».</p>
+        <div class="who"><b>Отзыв клиента</b> · с сайта компании</div>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CALCULATOR ============ -->
+<section class="section calc" id="calc">
+  <div class="wrap">
+    <div class="calc-shell sr">
+      <aside class="calc-aside">
+        <h2>Оставьте заявку на бесплатный замер</h2>
+        <p>Соберите заявку за минуту — мы свяжемся, уточним детали и приедем на замер бесплатно.</p>
+        <ul>
+          <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Замер и дизайн-проект — бесплатно</li>
+          <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Цену закрепим в договоре</li>
+          <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Оплата только после доставки</li>
+        </ul>
+      </aside>
+      <form class="calc-form" id="calcForm">
+        <div class="field">
+          <label>Что нужно изготовить?</label>
+          <div class="opts" role="radiogroup">
+            <label class="opt"><input type="radio" name="type" value="Кухня" checked><span>Кухня</span></label>
+            <label class="opt"><input type="radio" name="type" value="Шкаф / гардеробная"><span>Шкаф / гардеробная</span></label>
+            <label class="opt"><input type="radio" name="type" value="Корпусная мебель"><span>Корпусная мебель</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="len">Примерная длина, погонных метров</label>
+          <div class="range-row">
+            <input type="range" id="len" name="len" min="1" max="8" step="0.5" value="3">
+            <span class="range-val"><span id="lenVal">3</span> пог. м</span>
+          </div>
+        </div>
+        <div class="field">
+          <label>Материал фасада</label>
+          <div class="opts" role="radiogroup">
+            <label class="opt"><input type="radio" name="mat" value="ЛДСП" checked><span>ЛДСП</span></label>
+            <label class="opt"><input type="radio" name="mat" value="Пластик"><span>Пластик</span></label>
+            <label class="opt"><input type="radio" name="mat" value="Эмаль"><span>Эмаль</span></label>
+            <label class="opt"><input type="radio" name="mat" value="Шпон"><span>Шпон</span></label>
+            <label class="opt"><input type="radio" name="mat" value="Пока не выбрал"><span>Пока не выбрал</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="uname">Как к вам обращаться и район (по желанию)</label>
+          <input type="text" id="uname" name="uname" placeholder="Например: Анна, Чертаново" autocomplete="name">
+        </div>
+        <div class="calc-actions">
+          <a class="btn btn-primary" id="tgSend" href="https://t.me/MVK_Kuhni" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.7 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-4.9 9-8.1c.4-.3-.1-.5-.6-.2L4.9 13 .2 11.5c-1-.3-1-1 .2-1.5L20.6 2.4c.9-.3 1.6.2 1.3 1.9z"/></svg>
+            Отправить в Telegram
+          </a>
+          <a class="btn btn-ghost" href="tel:+79104730088">Позвонить менеджеру</a>
+        </div>
+        <p class="calc-note">Точную стоимость назовём на бесплатном замере — она зависит от размеров, фурнитуры и материалов.</p>
+        <div class="calc-msg" id="calcMsg" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq" id="faq">
+  <div class="wrap">
+    <span class="eyebrow sr">Частые вопросы</span>
+    <h2 class="sr">Что обычно спрашивают перед заказом</h2>
+    <div class="faq-list sr">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Правда, что можно ничего не платить вперёд?</button>
+        <div class="faq-a"><p>Да. Мы сначала изготавливаем кухню на своём производстве и привозим её вам, а оплата происходит в день доставки. Это закреплено в договоре.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Замер и проект платные?</button>
+        <div class="faq-a"><p>Нет. Выезд дизайнера на замер и подготовку дизайн-проекта мы делаем бесплатно.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Какая гарантия на мебель?</button>
+        <div class="faq-a"><p>На мебель действует гарантия 5 лет. Поддержку и сервис вы получаете и после сборки.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Вы сами производите мебель?</button>
+        <div class="faq-a"><p>Да, у нас собственное производство. Мы не перекупщики: отвечаем за материалы, сроки и качество на всех этапах.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Можно посмотреть образцы вживую?</button>
+        <div class="faq-a"><p>Да, приходите в шоурум: Москва, Варшавское шоссе, 141к7, помещение 5, 1 этаж (вход со двора). Метро Академика Янгеля. Лучше записаться заранее, чтобы дизайнер уделил вам время.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <span class="eyebrow sr">Контакты и шоурум</span>
+    <h2 class="sr">Приезжайте или напишите — покажем образцы</h2>
+    <div class="contact-grid">
+      <div class="sr">
+        <div class="info-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><div class="lbl">Шоурум</div><div class="val">Москва, Варшавское ш., 141к7, пом. 5, 1 этаж</div></div>
+        </div>
+        <div class="info-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div><div class="lbl">Часы работы</div><div class="val">Пн–Пт 10:00–20:00 · Сб–Вс 10:00–19:00</div></div>
+        </div>
+        <div class="info-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 11.5a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></svg>
+          <div><div class="lbl">Телефон</div><a class="val" href="tel:+79104730088">+7 910 473-00-88</a></div>
+        </div>
+        <div class="info-row">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.7 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-4.9 9-8.1c.4-.3-.1-.5-.6-.2L4.9 13 .2 11.5c-1-.3-1-1 .2-1.5L20.6 2.4c.9-.3 1.6.2 1.3 1.9z"/></svg>
+          <div><div class="lbl">Мессенджеры</div><div class="val"><a href="https://t.me/MVK_Kuhni" target="_blank" rel="noopener" style="color:#fff">Telegram</a> · <a href="https://vk.com/club94514618" target="_blank" rel="noopener" style="color:#fff">ВКонтакте</a></div></div>
+        </div>
+      </div>
+      <div class="map-card sr">
+        <svg class="mapbg" viewBox="0 0 400 360" preserveAspectRatio="xMidYMid slice" fill="none">
+          <rect width="400" height="360" fill="#16281f"/>
+          <path d="M0 120h400M0 250h400M120 0v360M270 0v360" stroke="#25473a" stroke-width="1.5"/>
+          <path d="M0 60 400 190M60 360 400 60" stroke="#25473a" stroke-width="8" opacity=".6"/>
+          <circle cx="215" cy="175" r="10" fill="#c79a54"/>
+          <path d="M215 155c-9 0-16 7-16 16 0 12 16 26 16 26s16-14 16-26c0-9-7-16-16-16z" fill="none" stroke="#c79a54" stroke-width="2"/>
+        </svg>
+        <div class="mapfoot">
+          <div class="val">Варшавское ш., 141к7 · метро Академика Янгеля</div>
+          <a class="btn btn-brass" href="https://yandex.ru/maps/?rtext=~Москва, Варшавское шоссе, 141к7&rtt=auto" target="_blank" rel="noopener">Построить маршрут</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="brand"><span>Мир вокруг кухни</span></div>
+        <p style="margin-top:12px;max-width:34ch;font-size:.94rem">Кухни и корпусная мебель на заказ в Москве. Своё производство. Оплата в день доставки.</p>
+      </div>
+      <div class="foot-links">
+        <div class="col"><div class="h">Разделы</div><a href="#why">Почему мы</a><a href="#services">Что делаем</a><a href="#works">Работы</a><a href="#process">Как заказываем</a></div>
+        <div class="col"><div class="h">Связь</div><a href="tel:+79104730088">+7 910 473-00-88</a><a href="https://t.me/MVK_Kuhni" target="_blank" rel="noopener">Telegram</a><a href="https://vk.com/club94514618" target="_blank" rel="noopener">ВКонтакте</a><a href="#calc">Записаться на замер</a></div>
+      </div>
+    </div>
+    <div class="foot-legal">
+      ООО «МИР ВОКРУГ КУХНИ» · ОГРН 1215800005387 · ИНН 5803031541<br>
+      Москва, Варшавское шоссе, 141к7, помещение 5, 1 этаж, 117405. Не является публичной офертой.
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MOBILE BOTTOM BAR ============ -->
+<nav class="mbar" aria-label="Быстрые действия">
+  <a class="accent" href="tel:+79104730088"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 11.5a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></svg>Позвонить</a>
+  <a href="https://t.me/MVK_Kuhni" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.3 18.7 19c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-4.9 9-8.1c.4-.3-.1-.5-.6-.2L4.9 13 .2 11.5c-1-.3-1-1 .2-1.5L20.6 2.4c.9-.3 1.6.2 1.3 1.9z"/></svg>Написать</a>
+  <a href="https://yandex.ru/maps/?rtext=~Москва, Варшавское шоссе, 141к7&rtt=auto" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Маршрут</a>
+</nav>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* header solidify */
+  var head = document.getElementById("head");
+  function onScroll(){ head.classList.toggle("solid", window.scrollY > 30); }
+  onScroll(); window.addEventListener("scroll", onScroll, {passive:true});
+
+  /* mobile menu */
+  var burger = document.getElementById("burger"), mmenu = document.getElementById("mmenu"),
+      mclose = document.getElementById("mclose");
+  function openMenu(){ mmenu.classList.add("open"); mmenu.setAttribute("aria-hidden","false");
+    burger.setAttribute("aria-expanded","true"); document.body.style.overflow="hidden"; }
+  function closeMenu(){ mmenu.classList.remove("open"); mmenu.setAttribute("aria-hidden","true");
+    burger.setAttribute("aria-expanded","false"); document.body.style.overflow=""; }
+  burger.addEventListener("click", openMenu);
+  mclose.addEventListener("click", closeMenu);
+  mmenu.querySelectorAll("[data-close]").forEach(function(a){ a.addEventListener("click", closeMenu); });
+
+  /* build works placeholders (swap for real photos) */
+  var grid = document.getElementById("worksGrid");
+  if(grid){
+    var cats = ["Кухня · современная","Кухня · классика","Шкаф-купе","Гардеробная",
+                "Кухня · с островом","Корпусная мебель"];
+    var html = "";
+    for(var i=0;i<6;i++){
+      var cls = i===0 ? "work" : "work";
+      html += '<div class="'+cls+'"><div class="ph" style="width:100%;height:100%">'+
+        '<svg viewBox="0 0 200 200" preserveAspectRatio="xMidYMid slice" fill="none" stroke="#c79a54" stroke-width="1.4">'+
+        '<rect x="30" y="40" width="45" height="34" rx="2"/><rect x="85" y="40" width="45" height="34" rx="2"/>'+
+        '<rect x="140" y="40" width="34" height="34" rx="2"/><line x1="24" y1="96" x2="176" y2="96"/>'+
+        '<rect x="30" y="100" width="42" height="60" rx="2"/><rect x="82" y="100" width="34" height="60" rx="2"/>'+
+        '<rect x="126" y="100" width="48" height="60" rx="2"/></svg>'+
+        '<span class="tag">'+cats[i]+' · заменить фото</span></div></div>';
+    }
+    grid.innerHTML = html;
+  }
+
+  /* scroll reveal */
+  var srs = document.querySelectorAll(".sr");
+  if("IntersectionObserver" in window && !reduce){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, {threshold:.14, rootMargin:"0px 0px -8% 0px"});
+    srs.forEach(function(el){ io.observe(el); });
+  } else { srs.forEach(function(el){ el.classList.add("in"); }); }
+
+  /* process timeline trigger */
+  var proc = document.getElementById("process");
+  if(proc){
+    if("IntersectionObserver" in window && !reduce){
+      var io2 = new IntersectionObserver(function(es){
+        es.forEach(function(e){ if(e.isIntersecting){ proc.classList.add("in"); io2.unobserve(proc); } });
+      }, {threshold:.3});
+      io2.observe(proc);
+    } else { proc.classList.add("in"); }
+  }
+
+  /* count up */
+  function countUp(el){
+    var to = parseFloat(el.dataset.to), dec = (to % 1 !== 0), start = null, dur = 1200;
+    if(reduce){ el.textContent = dec ? to.toFixed(1) : to; return; }
+    function tick(t){ if(!start) start = t; var p = Math.min((t-start)/dur,1);
+      var v = to * (0.2 + 0.8*(1-Math.pow(1-p,3))) ;
+      el.textContent = dec ? v.toFixed(1) : Math.round(v);
+      if(p<1) requestAnimationFrame(tick); else el.textContent = dec ? to.toFixed(1) : to; }
+    requestAnimationFrame(tick);
+  }
+  var rn = document.getElementById("ratingNum"), rc = document.getElementById("reviewCount");
+  if(rn && "IntersectionObserver" in window){
+    var io3 = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ countUp(rn); countUp(rc); io3.disconnect(); } });
+    }, {threshold:.5});
+    io3.observe(rn);
+  }
+
+  /* FAQ accordion */
+  document.querySelectorAll(".faq-item").forEach(function(item){
+    var q = item.querySelector(".faq-q"), a = item.querySelector(".faq-a");
+    q.addEventListener("click", function(){
+      var open = item.classList.toggle("open");
+      q.setAttribute("aria-expanded", open ? "true" : "false");
+      a.style.maxHeight = open ? (a.scrollHeight + "px") : "0px";
+    });
+  });
+
+  /* range value */
+  var len = document.getElementById("len"), lenVal = document.getElementById("lenVal");
+  if(len){ len.addEventListener("input", function(){ lenVal.textContent = len.value; }); }
+
+  /* compose message → copy + open Telegram */
+  var form = document.getElementById("calcForm"), tgSend = document.getElementById("tgSend"),
+      calcMsg = document.getElementById("calcMsg");
+  function buildMsg(){
+    var type = (form.querySelector('input[name=type]:checked')||{}).value || "Кухня";
+    var mat = (form.querySelector('input[name=mat]:checked')||{}).value || "";
+    var l = document.getElementById("len").value;
+    var nm = document.getElementById("uname").value.trim();
+    var msg = "Здравствуйте! Хочу заявку на бесплатный замер.\n"+
+              "Тип: "+type+"\nДлина: ~"+l+" пог. м\nФасад: "+mat;
+    if(nm) msg += "\nМеня зовут: "+nm;
+    msg += "\n(отправлено с сайта)";
+    return msg;
+  }
+  if(tgSend){
+    tgSend.addEventListener("click", function(){
+      var msg = buildMsg();
+      calcMsg.textContent = "Текст заявки скопирован — вставьте его в чат Telegram:\n\n" + msg;
+      calcMsg.classList.add("show");
+      try{
+        if(navigator.clipboard) navigator.clipboard.writeText(msg);
+      }catch(e){}
+      /* link default href opens the chat; text is in clipboard + shown above */
+    });
+  }
+})();
+</script>
+</body>
+</html>
